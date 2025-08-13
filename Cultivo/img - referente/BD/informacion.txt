@@ -1,0 +1,35 @@
+->royecto Laravel 12 + Flutter (API Funcional)
+
+Un sistema compuesto por un backend en Laravel 12 que expone una API REST y una aplicación móvil en Flutter que interactúa con ella.
+Este sistema permite que los usuarios y administradores gestionen datos y procesos de forma centralizada desde la API.
+
+🔹 Rol Administrador
+El administrador trabaja principalmente desde el backend Laravel o desde una interfaz especial en Flutter con permisos completos.
+
+Funciones típicas:
+-Gestión de usuarios
+-Crear, editar, suspender y eliminar usuarios.
+-Asignar roles (admin/cliente).
+-Gestión de productos o servicios (según el proyecto)
+-Crear y actualizar inventario o catálogo.
+-Cambiar precios, descripciones 
+
+
+🔹 Rol Cliente (Usuario final)
+El cliente utiliza la app Flutter para interactuar con el sistema de manera simple e intuitiva.
+
+Funciones típicas:
+-Registro e inicio de sesión
+-Crear cuenta o iniciar sesión con credenciales.
+-Explorar catálogo / servicios
+-Ver productos, servicios, descripciones y precios.
+
+Perfil de usuario
+Editar información personal, dirección, teléfono, etc.
+
+🔹 Flujo básico de funcionamiento
+-Cliente → Flutter → solicita datos a la API.
+-API en Laravel consulta la base de datos y devuelve la información en JSON.
+-Flutter muestra los datos con el diseño propio de la app.
+-Cliente ve los productos, Flutter envía la solicitud a la API.
+-Laravel procesa, guarda en la base y responde con el resultado sea por laravel o apis están conectadas 
